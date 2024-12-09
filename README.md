@@ -10,3 +10,7 @@ git config --global core.quotepath off
 git config --global init.defaultBranch main # Ветка по умолчанию
 git config --global core.autocrlf true
 
+git add . #  иниилизация репозитория
+git init # добавить все файлы в track
+git commit -m "сообщение" # сделать коммит
+
