@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<title>Мой сайт</title>
+<link rel="stylesheet" href="index.css" >
+  </head>
+
+  <body class="page">
+
+<main class="page__main">
+
+  <section class="hero">
+
+    <div class="container">
+
+      <h1 class="page__title">GAME OVER</h1>
+      
+      <img class="page__image" src="img/Слой11.png" alt="">
+
+    </div>
+
+    </section>
+
+<!-- <section class="menu">
+
+    <h2 class="menu__title">МЕНЮ</h2>
+
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="page.html">Залы</a></li>
+        <li class="menu__item"><a class="menu__link" href="page.html">О нас</a></li>
+        <li class="menu__item"><a class="menu__link" href="page.html">Бронь</a></li>
+        <li class="menu__item"><a class="menu__link" href="page.html">Отзывы</a></li>
+        <li class="menu__item"><a class="menu__link" href="page.html">Конткаты</a></li>
+      </ul>
+
+</section>
+
+  
+<section class="services">
+
+      <h2 class="services__title">У нас есть всё для классного отдыха с друзьями!</h2>
+
+      <ul class="services__list">
+        <li class="services__item"><img class="services__image" src="img/vr.jpg" alt="vr очки"
+      height="280">
+        </li>
+    
+        <li class="services__item">VR очки</li>
+        
+        <li class="services__item"><img class="services__image" src="img/audio.jpg" alt="аудио-система"
+      height="280">
+        </li>
+
+        <li class="services__item">Аудио-система 5.1 с отличным звуком</li>
+
+        <li class="services__item"><img class="services__image" src="img/micro.jpg" alt="караоке"
+          height="280">
+        </li>
+
+        <li class="services__item">Караоке (4 микрофона)</li>
+
+        <li class="services__item"><img class="services__image" src="img/game.jpg" alt="настолки"
+          height="280">
+        </li>
+
+        <li class="services__item">Настольные игры</li>
+
+        <li class="services__item"><img class="services__image" src="img/netflix.jpg" alt="Кино"
+          height="280">
+        </li>
+
+        <li class="services__item">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</li>
+
+        <li class="services__item"><img class="services__image" src="img/sony.jpg" alt="Приставка"
+          height="280">
+        </li>
+
+        <li class="services__item">PlayStation 5</li>
+
+      </ul>
+
+  </section> -->
+
+  <section class="rooms">
+    <div class="container">
+
+      <h2 class="rooms__title">НАШИ ЗАЛЫ</h2>
+
+      <ul class="rooms__list">
+        <li class="rooms__item vibes"><a class="rooms__link" href="vibes.html" lang="en">80's vibes</a></li>
+        <li class="rooms__item starwars"><a class="rooms__link" href="starwars.html" lang="en">Star wars</a></li>
+        <li class="rooms__item wildwest"><a class="rooms__link" href="wildwest.html" lang="en">Wild west</a></li>
+        <li class="rooms__item neonstyle"><a class="rooms__link" href="neon.html" lang="en">Neon style</a></li>
+      </ul>
+
+    </div>
+    
+
+  </section>
+
+  <section class="booking">
+
+      <h2 class="booking__title">ЗАБРОНИРОВАТЬ</h2>
+
+      <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts"
+            method="post">
+
+          <fieldset class="rooms">
+
+          <label class="rooms__item">
+            <input type="radio" name="room" value="80's vibes" lang="en">80's vibes
+          </label>
+
+          <label class="rooms__item">
+            <input type="radio" name="room" value="Star wars" lang="en">Star wars
+          </label>
+
+          <label class="rooms__item">
+            <input type="radio" name="room" value="Wild west" lang="en">Wild west
+          </label>
+
+          <label class="rooms__item">
+            <input type="radio" name="room" value="Neon style" lang="en">Neon style
+          </label>
+
+
+</fieldset>
+            
+<br>
+
+<fieldset class="activities">
+  <legend><strong>Собери набор развлечений</strong></legend>
+
+<fieldset class="activities__consoles">
+  <legend> <b>Приставка:</b></legend>
+
+<label class="activities__consoles__item">
+  <input type="radio" name="game console" value="PlayStation" lang="en">PlayStation
+</label>
+
+<label class="activities__consoles__item">
+  <input type="radio" name="game console" value="Sega Mega Drive" lang="en">Sega Mega Drive
+</label>
+
+<label class="activities__consoles__item">
+  <input type="radio" name="game console" value="X-box One S" lang="en">X-box One S
+</label>
+
+<label class="activities__consoles__item">
+  <input type="radio" name="game console" value="Dendy" lang="en">Dendy
+</label>
+
+
+</fieldset>
+<br>
+<fieldset class="games">
+  <legend><b>Настольные иргры:</b></legend>
+
+<label class="games__item"> 
+<input type="checkbox" name="board games" value="Jenga" lang="en">Jenga
+</label> 
+
+<label class="games__item">
+<input type="checkbox" name="board games" value="Monopoly" lang="en">Monopoly
+</label> 
+
+<label class="games__item">
+<input type="checkbox" name="board games" value="Manchkin">Манчкин
+</label> 
+
+<label class="games__item">
+<input type="checkbox" name="board games" value="Alias" lang="en">Alias
+</label> 
+
+
+</fieldset>
+
+<br>
+
+<fieldset class="additionally">
+  <legend><b>Дополниткльно:</b></legend>
+
+<label class="additionally__item"> 
+<input type="checkbox" name="additionally" value="Karaoke">Караоке
+</label>
+
+<label class="additionally__item">
+<input type="checkbox" name="additionally" value="VR">VR
+</label>
+
+</fieldset>
+
+</fieldset>
+
+          
+<br>
+<fieldset class="date">
+<legend class="date__title"><b>Выбери дату и время</b></legend>
+
+<label class="date__item">
+Дата*<input type="date" name="date" required>
+</label>
+
+<label class="date__item"> 
+Время*<input type="time" name="time" required>
+</label>
+<br>
+
+<label class="date__item">
+Количество человек*<input type="number" name="number" required>
+</label>
+<br>
+
+<label class="date__item">
+Имя*<input type="text" name="first name" required>
+</label>
+<br>
+
+<label class="date__item">
+Фамилия*<input type="text" name="last name" required>
+</label>
+<br>
+
+<label class="date__item">
+Номер телефона*<input type="tel" name="tel" required>
+</label>
+<br>
+
+<label class="date__item">
+<input type="checkbox" name="yes" required>Я страше 18 лет
+</label>
+
+</fieldset>
+<br>
+
+<label class="book">
+<input type="submit" name="send" value="Забронировать" >
+</label>
+
+<label class="agree">
+<input type="checkbox" name="agree" required>Согласен на обработку данных
+</label>
+
+    </form>
+
+    </section>
+
+    <section class="block__about">
+      <h2 class="section-title">О нас</h2> <!-- Добавлен заголовок секции -->
+    
+      <div class="immersive-experience-container">
+        <div class="game-over-landing-page">
+          <div class="immersive-content-container">
+            <p class="hero-title">О нас</p>
+            <div class="game-space-container">
+              <img src="img/onas.svg" class="immersive-image-container" alt="о нас" />
+              <div class="game-atmosphere-container">
+                <p class="game-description-text-style">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности <br />в центральной части города.<br /><br />Каждый день мы стараемся создавать <br />для вас самую лучшую игровую атмосферу <br />и радовать вас топовыми игровыми разработками <br />со всего мира.</p>
+                <div class="testimonial-container">
+                  <p class="majestic-heading">“</p>
+                  <p class="unforgettable-experience-quote">
+                    <span>GAME OVER — <br />это место незабываемых впечатлений </span><span class="unforgettable-impressions">”</span>
+                  </p>
+                </div>
+                <div class="game-creator-info-section">
+                  <img src="img/abrashkin.svg" class="profile-image" alt="фото мужчины" />
+                  <p class="founder-bio-text-style">Аркадий Абакшин,<br />создатель игровой территории GAME OVER</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- <section class="block__about">
+
+      <div class="immersive-experience-container">
+        <div class="game-over-landing-page">
+          <div class="immersive-content-container">
+            <p class="hero-title">о нас</p>
+            <div class="game-space-container">
+              <img src="img/onas.svg" class="immersive-image-container" alt="о нас" />
+              <div class="game-atmosphere-container">
+                <p class="game-description-text-style">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности <br />в центральной части города.<br /><br />Каждый день мы стараемся создавать <br />для вас самую лучшую игровую атмосферу <br />и радовать Вас топовыми игровыми разработками <br />со всего мира.</p>
+                <div class="testimonial-container">
+                  <p class="majestic-heading">“</p>
+                  <p class="unforgettable-experience-quote">
+                    <span>GAME OVER — <br />это место незабываемых впечатлений </span><span class="unforgettable-impressions">”</span>
+                  </p>
+                </div>
+                <div class="game-creator-info-section">
+                  <img src="img/abrashkin.svg" class="profile-image" alt="фото мужчины" />
+                  <p class="founder-bio-text-style">Аркадий Абакшин,<br />создатель игровой территории GAME OVER</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section> -->
+
+    <section class="questions">
+
+      <div class="container__questions">
+
+      <h2 class="questions__title">ЧАСТЫЕ ВОПРОСЫ</h2>
+
+
+        <p class="element">Можно ли забронировать комнату онлайн?</p>
+        <p class="element">Могут ли мне вернуть деньги за бронь?</p>
+        <p class="element">Какая комната самая популярная?</p>
+        <p class="element">Как получить VIP комнату?</p>
+        <p class="element">Какая комната самая популярная?</p>
+
+      </div>
+
+
+    </section>
+
+    </main>
+
+    <footer class="contacts">
+      <div class="faq-section-container">
+        <p class="hero-title">контакты</p>
+        <div class="room-reservation-section">
+          <div class="contact-info-container2">
+            <div class="contact-info-container1 contact-info-container contact-info-container1:first-child">
+              <div class="svg-container">
+                <svg viewBox="0 0 32 32" x="0" y="0" fill="none">
+                  <g id="location" data-node-id="1014:51">
+                    <g id="Group" data-node-id="1014:52">
+                      <g id="Group_2" data-node-id="1014:53">
+                        <path id="Vector" data-node-id="1014:54" d="M16,0c-5.623,0 -10.312,4.53 -10.312,10.31c0,2.2 0.661,4.16 1.929,6l7.594,11.85c0.368,0.58 1.211,0.58 1.578,0l7.627,-11.89c1.241,-1.75 1.896,-3.81 1.896,-5.96c0,-5.68 -4.626,-10.31 -10.312,-10.31zM16,15c-2.585,0 -4.688,-2.1 -4.688,-4.69c0,-2.58 2.103,-4.69 4.688,-4.69c2.585,0 4.688,2.11 4.688,4.69c0,2.59 -2.103,4.69 -4.688,4.69z" fill="currentColor" />
+                      </g>
+                    </g>
+                    <g id="Group_3" data-node-id="1014:55">
+                      <g id="Group_4" data-node-id="1014:56">
+                        <path id="Vector_2" data-node-id="1014:57" d="M23.329,21.54l-4.721,7.38c-1.222,1.91 -4.001,1.9 -5.217,0.01l-4.729,-7.38c-4.16,0.96 -6.724,2.72 -6.724,4.83c0,3.65 7.245,5.62 14.062,5.62c6.817,0 14.062,-1.97 14.062,-5.62c0,-2.11 -2.568,-3.88 -6.733,-4.84z" fill="currentColor" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <p class="contact-info-display-style" style="text-align: left; line-height: 28px">г. Москва<br />ул. Аквамарина, 16</p>
+            </div>
+            <div class="contact-info-container1 contact-info-container">
+              <div class="svg-container">
+                <svg viewBox="0 0 32 32" x="0" y="0" fill="none">
+                  <g id="bx:bxs-phone-call" data-node-id="1014:64">
+                    <path id="Vector_5" data-node-id="1014:65" d="M26.667,14.67h2.666c0,-6.84 -5.164,-12 -12.013,-12v2.66c5.416,0 9.347,3.93 9.347,9.34z" fill="currentColor" />
+                    <path id="Vector_6" data-node-id="1014:66" d="M17.333,10.67c2.804,0 4,1.19 4,4h2.667c0,-4.3 -2.367,-6.67 -6.667,-6.67zM21.896,17.92c-0.256,-0.23 -0.593,-0.35 -0.939,-0.34c-0.346,0.01 -0.674,0.15 -0.916,0.4l-3.19,3.28c-0.768,-0.14 -2.312,-0.63 -3.902,-2.21c-1.589,-1.59 -2.07,-3.14 -2.213,-3.9l3.279,-3.19c0.248,-0.25 0.393,-0.57 0.404,-0.92c0.011,-0.35 -0.114,-0.68 -0.347,-0.94l-4.927,-5.42c-0.233,-0.25 -0.557,-0.41 -0.903,-0.43c-0.347,-0.02 -0.688,0.09 -0.951,0.32l-2.894,2.48c-0.23,0.23 -0.368,0.54 -0.386,0.86c-0.02,0.34 -0.402,8.23 5.721,14.36c5.341,5.34 12.032,5.73 13.875,5.73c0.269,0 0.434,-0.01 0.478,-0.01c0.326,-0.02 0.634,-0.16 0.864,-0.39l2.48,-2.89c0.226,-0.27 0.341,-0.61 0.319,-0.95c-0.021,-0.35 -0.177,-0.67 -0.433,-0.91z" fill="currentColor" />
+                  </g>
+                </svg>
+              </div>
+              <p class="contact-info-display-style">8 (950) 930 - 28 - 93</p>
+            </div>
+            <div class="contact-info-container1 contact-info-container contact-info-container1:last-child">
+              <div class="svg-container">
+                <svg viewBox="0 0 32 32" x="0" y="0" fill="none">
+                  <g id="envelope" data-node-id="1014:58">
+                    <g id="Group_5" data-node-id="1014:59">
+                      <g id="Group_6" data-node-id="1014:60">
+                        <g id="Group_7" data-node-id="1014:61">
+                          <path id="Vector_3" data-node-id="1014:62" d="M0.668,5.95c4.392,3.72 12.098,10.26 14.363,12.3c0.304,0.28 0.63,0.42 0.969,0.42c0.338,0 0.663,-0.14 0.967,-0.42c2.267,-2.04 9.973,-8.58 14.365,-12.3c0.273,-0.23 0.315,-0.64 0.094,-0.92c-0.512,-0.66 -1.275,-1.03 -2.093,-1.03h-26.666c-0.818,0 -1.581,0.37 -2.093,1.03c-0.221,0.28 -0.179,0.69 0.094,0.92z" fill="currentColor" />
+                          <path id="Vector_4" data-node-id="1014:63" d="M31.613,7.96c-0.236,-0.11 -0.514,-0.07 -0.711,0.1c-4.87,4.13 -11.086,9.42 -13.042,11.18c-1.098,0.99 -2.621,0.99 -3.721,0c-2.085,-1.88 -9.066,-7.81 -13.041,-11.18c-0.198,-0.17 -0.477,-0.21 -0.711,-0.1c-0.236,0.11 -0.387,0.35 -0.387,0.61v16.76c0,1.47 1.196,2.67 2.667,2.67h26.666c1.471,0 2.667,-1.2 2.667,-2.67v-16.76c0,-0.26 -0.151,-0.5 -0.387,-0.61z" fill="currentColor" />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <a href="mailto:info@vrmotion.com.ua" class="contact-info-text-style">GameOver@gmail.com</a>
+            </div>
+          </div>
+          <div class="vertical-margin-top">
+            <img src="img/social.svg" class="image-container" alt="соцсети" />
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+  </body>
+
+</html>

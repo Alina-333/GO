@@ -1,0 +1,367 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+  }
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100px;
+
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    background-color: #1B1A1B;
+    color: #FFFFFF;
+}
+
+.hero {
+    padding-top: 146px;
+}
+
+.page__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.rooms__list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.rooms__item {
+    height: 710px;
+    padding-top: 315px;
+    text-align: center;
+}
+
+.vibes {
+    background-image: url("img/Rectangle29.svg");
+}
+
+.starwars {
+    background-image: url("img/star.svg");
+}
+
+.wildwest {
+    background-image: url("img/wilde.svg");
+}
+
+.neonstyle {
+    background-image: url("img/neon.svg");
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.page__image {
+    margin-top: -120px;
+    margin-left: 800px;
+    width: 675px;
+    height: 762px;
+}
+
+.immersive-experience-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 1440px;
+    }
+    .game-over-landing-page {
+    box-sizing: border-box;
+    min-width: 1181px;
+    padding-top: 100px;
+    padding-bottom: 101px;
+    }
+    .immersive-content-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    }
+    .hero-title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 982px;
+    padding: 0;
+    margin: 0;
+    font: 700 40px Arial;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    .game-space-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 57px;
+    }
+    .immersive-image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 600px;
+    max-width: initial;
+    height: 596px;
+    border: none;
+    object-fit: cover;
+    }
+    .game-atmosphere-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 502px;
+    }
+    .game-description-text-style {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 400 20px/28px Arial;
+    color: white;
+    text-align: left;
+    }
+    .testimonial-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 49px;
+    }
+    .majestic-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    padding-bottom: 152px;
+    margin: 0;
+    font: 900 44px/50px Arial;
+    color: #6c0287;
+    text-transform: uppercase;
+    }
+    .unforgettable-experience-quote {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    max-width: 471px;
+    padding: 0;
+    padding-top: 11px;
+    margin: 0;
+    margin-left: 7px;
+    font: 400 44px/50px Arial;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    }
+    .unforgettable-impressions {
+    font: 900 44px/50px Arial;
+    color: #6c0287;
+    text-align: left;
+    text-transform: uppercase;
+    }
+    .game-creator-info-section {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 39px;
+    }
+    .profile-image {
+    box-sizing: border-box;
+    display: block;
+    width: 80px;
+    max-width: initial;
+    height: 80px;
+    margin-right: 28.5px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+    .founder-bio-text-style {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    max-width: 281px;
+    padding: 0;
+    margin: 0;
+    font: 400 20px/28px Arial;
+    color: white;
+    text-align: left;
+    }
+
+    .about__title, .reviews__title, .contacts__title, .booking__title, .rooms__title, .services__title, .menu__title, .questions__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    }
+
+    .container__questions {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 100px;
+    }
+
+    .element {
+    position: relative;
+    }
+
+    .element:nth-child(1n) {
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    }
+
+    .element:nth-child(1n)::before {
+    position: absolute;
+    right: 20px ;
+    top: 20px;
+    content: "";
+    background-image: url("img/open-purple.svg");
+    width: 46px;
+    height: 46px;
+    /* transform: translateY(-50%); */
+    }
+
+    .element:nth-child(2n) {
+    background-color: #440f51;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    }
+
+    .element:nth-child(2n)::before {
+    position: absolute;
+    right: 20px ;
+    top: 20px;
+    content: "";
+    background-image: url("img/open.svg");
+    width: 46px;
+    height: 46px;
+    /* transform: translateY(-50%); */
+    }
+
+
+    .contact-info-container2 {
+    box-sizing: border-box;
+    width: 100%;
+    }
+    .contact-info-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+    .contact-info-container {
+    align-items: center;
+    margin-top: 10px;
+    }
+    .contact-info-container1:first-child {
+    margin-top: 0px;
+    }
+    .svg-container {
+    display: flex;
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    color: #cd06ff;
+    }
+    .contact-info-text-style {
+    display: block;
+    flex: 0 0 auto;
+    padding: 0;
+    padding-bottom: 4px;
+    margin: 0;
+    margin-left: 27px;
+    font: 700 24px Arial;
+    color: white;
+    text-decoration-line: none;
+    white-space: pre-wrap;
+    }
+    .contact-info-display-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 27px;
+    font: 700 24px Arial;
+    color: white;
+    white-space: pre-wrap;
+    }
+    .contact-info-container1:last-child {
+    align-items: flex-start;
+    }
+    .vertical-margin-top {
+    margin-top: 36px;
+    }
+    .image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 280px;
+    max-width: initial;
+    height: 49px;
+    }
