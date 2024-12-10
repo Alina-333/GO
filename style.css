@@ -145,6 +145,18 @@ section {
     text-align: center;
     text-transform: uppercase;
     }
+.hero-title-contacts {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 982px;
+    padding-bottom: 40px;
+    margin: auto;
+    font: 700 40px Arial;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
     .block__about-space-container {
     display: flex;
     flex: 0 0 auto;
