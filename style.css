@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     position: relative;
-  }
+    }
 
 * {
     box-sizing: inherit;
@@ -36,6 +36,19 @@ body {
     max-width: 1180px;
     margin: auto;
 }
+
+.rooms__title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 982px;
+    padding-bottom: 40px;
+    margin: auto;
+    font: 700 40px Arial;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    }
 
 .rooms__list {
     display: flex;
@@ -104,6 +117,19 @@ section {
     color: #fff;
 }
 
+.booking__title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 982px;
+    padding-bottom: 40px;
+    margin: auto;
+    font: 700 40px Arial;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
 .page__image {
     margin-top: -120px;
     margin-left: 800px;
@@ -145,7 +171,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     }
-.hero-title-contacts {
+    .hero-title-contacts {
     box-sizing: border-box;
     flex: 0 0 auto;
     align-self: center;
@@ -156,7 +182,7 @@ section {
     color: white;
     text-align: center;
     text-transform: uppercase;
-}
+    }
     .block__about-space-container {
     display: flex;
     flex: 0 0 auto;
@@ -259,7 +285,7 @@ section {
     text-align: left;
     }
 
-    .about__title, .reviews__title,  .booking__title, .rooms__title, .services__title, .menu__title, .questions__title {
+    .about__title, .reviews__title, .services__title, .menu__title, {
     text-align: center;
     font-size: 36px;
     
@@ -269,11 +295,25 @@ section {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 100px;
+        height: 611px;
+        left: 110px;
+        position: absolute;
+        top: 5626px;
+        width: 1182px;
     }
+
+    .questions__title {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        align-self: center;
+        width: 982px;
+        padding-bottom: 40px;
+        margin: auto;
+        font: 700 40px Arial;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        }
 
     .element {
     position: relative;
@@ -319,79 +359,108 @@ section {
     /* transform: translateY(-50%); */
     }
 
+    .faq-section-container1 {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+      }
 
-    .contacts-info-container2 {
-    box-sizing: border-box;
-    width: 100%;
-    }
-    .contacts-info-container1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    }
-    .contacts-info-container {
-    align-items: center;
-    margin-top: 10px;
-    }
-    .contacts-info-container1:first-child {
-    margin-top: 0px;
-    }
-    .contacts-svg-container {
-    display: flex;
-    flex: 0 0 auto;
-    width: 32px;
-    height: 32px;
-    color: #cd06ff;
-    float: left;
-    }
-    .contacts-info-text {
-    display: block;
-    flex: 0 0 auto;
-    padding: 0;
-    padding-bottom: 4px;
-    margin: 0;
-    margin-left: 27px;
-    font: 700 24px Arial;
-    color: white;
-    text-decoration-line: none;
-    white-space: pre-wrap;
-    padding-left: 28px;
+      .contact-info-container3 {
+        flex: 0 0 auto;
+        margin-top: 57px;
+      }
+
+      .contact-info-container2 {
+        box-sizing: border-box;
+        width: 100%;
+      }
+     
+      .contact__section-container {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
     }
 
-    .contacts__title {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    align-self: center;
-    width: 982px;
-    padding-bottom: 40px;
-    margin: 0;
-    font: 700 40px Arial;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    }
+      .contact-info-container {
+        align-items: center;
+        margin-top: 10px;
+      }
 
-    .contacts-info-display {
-    flex: 0 0 auto;
-    padding: 0;
-    margin: 0;
-    margin-left: 27px;
-    font: 700 24px Arial;
-    color: white;
-    white-space: pre-wrap;
-    padding-bottom: 36px;
-    padding-left: 28px;
-    }
-    .contacts-info-container1:last-child {
-    align-items: flex-start;
-    }
-    .vertical-margin-top {
-    margin-top: 36px;
-    }
-    .image-container {
-    box-sizing: border-box;
-    display: block;
-    width: 280px;
-    max-width: initial;
-    height: 49px;
-    }
+    .contact-title-style {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        align-self: center;
+        width: 982px;
+        padding: 0;
+        margin: 0;
+        margin-left: -53px;
+        font: 700 40px Arial;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .contact-info-container3 {
+        flex: 0 0 auto;
+        margin-top: 57px;
+      }
+      .contact-info-container2 {
+        box-sizing: border-box;
+        width: 100%;
+      }
+      .contact-info-container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      .contact-info-container {
+        align-items: center;
+        margin-top: 10px;
+      }
+      .contact-info-container1:first-child {
+        margin-top: 0px;
+      }
+      .svg-container {
+        display: flex;
+        flex: 0 0 auto;
+        width: 32px;
+        height: 32px;
+        color: #cd06ff;
+      }
+      .contact-info-link {
+        display: block;
+        flex: 0 0 auto;
+        padding: 0;
+        padding-bottom: 4px;
+        margin: 0;
+        margin-left: 27px;
+        font: 700 24px Arial;
+        color: white;
+        text-decoration-line: none;
+        white-space: pre-wrap;
+      }
+      .contact-info-text-style {
+        flex: 0 0 auto;
+        padding: 0;
+        margin: 0;
+        margin-left: 27px;
+        font: 700 24px Arial;
+        color: white;
+        white-space: pre-wrap;
+      }
+      .contact-info-container1:last-child {
+        align-items: flex-start;
+      }
+      .vertical-margin-top {
+        margin-top: 36px;
+      }
+      .image-container {
+        box-sizing: border-box;
+        display: block;
+        width: 280px;
+        max-width: initial;
+        height: 49px;
+      }
