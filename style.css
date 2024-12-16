@@ -295,11 +295,9 @@ section {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-        height: 611px;
-        left: 110px;
-        position: absolute;
-        top: 5626px;
-        width: 1182px;
+    height: 611px;
+    margin: 0 auto;
+    width: 1182px;
     }
 
     .questions__title {
