@@ -31,10 +31,12 @@ body {
   padding-bottom: 100px;
 }
 .flex-container-with-gap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    min-width: 1180px;
+    margin: 0 auto;
+    flex-direction: column
+    justify-content: flex-start;
 }
 .logo-image {
   height: 66px;
@@ -164,7 +166,9 @@ body {
 }
 .social-gathering-essentials-container {
   display: flex;
+  margin: 0 auto;
   gap: 20px;
+  width: 1440px;
 }
 .vertical-flex-container {
   flex: 1 1 0;
@@ -224,6 +228,9 @@ body {
 }
 .retro-vibes-container {
   display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  width: 1440px;
 }
 .retro-vibes-container2 {
   background: url("img/RETRO.png") 50% / cover no-repeat;
@@ -283,6 +290,13 @@ section {
     align-items: center;
     color: #fff;
 }
+.booking__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1440px;
+  background: #440f51;
+}
 .booking__title {
     padding-bottom: 40px;
     margin: auto;
@@ -337,6 +351,9 @@ section {
     }
     .block__about-text-container {
     max-width: 502px;
+    }
+    .block__about-image-container {
+      background-image: url("../img/");
     }
     .block__aboute-description {
     flex: 0 0 auto;
@@ -448,17 +465,15 @@ section {
     .questions__container {
     display: flex;
     flex-direction: column;
-    height: 611px;
     margin: 0 auto;
-    width: 1182px;
-    margin-bottom: 35px;
+    width: 1180px;
     }
     .questions__title {
         padding-bottom: 40px;
         margin: auto;
         font: 700 40px Arial;
         }
-    .element {
+  .element {
     position: relative;
     }
     .element:nth-child(1n) {
@@ -467,7 +482,9 @@ section {
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;
-    margin-bottom: 20px;
+    gap: 20px;
+    list-style-type: none;
+    width: 1180px;
     }
     .element:nth-child(1n)::before {
     position: absolute;
@@ -481,6 +498,8 @@ section {
     .element:nth-child(2n) {
     background-color: #440f51;
     color: #fff;
+    list-style-type: none;
+    width: 1180px;
     }
     .element:nth-child(2n)::before {
     position: absolute;
