@@ -9,80 +9,82 @@
 
   <body class="page">
 
-<main class="page__main">
+    <header class="menu__header">
 
-  <div class="main-content-container">
-    <div class="hero-section">
-      <div class="flex-container-with-gap">
-        <img src="img/LOGO.png" class="logo-image" alt="логотип" />
-        <div class="horizontal-nav-container">
-          <p class="menu-link">залы</p>
-          <p class="menu-link">О нас</p>
-          <p class="menu-link">Бронь</p>
-          <p class="menu-link">отзывы</p>
-          <p class="menu-link">Контакты</p>
-          <p class="call">Заказать звонок</p>
+      <div class="menu-content">
+        <div class="menu-section">
+          <div class="menu-container">
+            <img src="img/LOGO.png" class="logo-image" alt="логотип" />
+            <ul class="menu-nav-container">
+              <li class="menu-link"><a href="#halls"></a>залы</li>
+              <li class="menu-link"><a href="#aboutus"></a>O нас</li>
+              <li class="menu-link"><a href="#booking"></a>Бронь</li>
+              <li class="menu-link"><a href="#rewiews"></a>отзывы</li>
+              <li class="menu-link"><a href="#contacts"></a>Контакты</li>
+            </ul>
+              <button class="menu__call">Заказать звонок</button>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </header>
+
+  <main class="page__main">
 
   <section class="hero">
-      <div class="game-over-section">
-        <h1 class="super-heading">GAME OVER</h1>
-        <div class="game-info-section">
-          <div class="vertical-centered-container">
-            <div class="themed-content-container">
-              <p class="themed-heading">Новый формат игр и отдыха</p>
-              <div class="themed-features-container">
-                <div class="event-info-card">
-                  <p class="giant-purple-heading">4</p>
-                  <p class="themed-text-block">Тематических<br />зала</p>
+      <div class="hero-section">
+        <h1 class="hero-heading">GAME OVER</h1>
+        <div class="hero-info">
+          <div class="hero-centered-container">
+            <div class="hero-content-container">
+              <h2 class="hero-heading2">Новый формат игр и отдыха</h2>
+              <div class="hero-features-container">
+                <div class="hero-info-card">
+                  <p class="hero-purple-heading">4</p>
+                  <p class="hero-text">Тематических<br />зала</p>
                 </div>
-                <div class="equipment-section">
-                  <p class="neon-glow">new</p>
-                  <p class="themed-text-block">Новейшая<br />аппаратура</p>
+                <div class="hero-equipment">
+                  <p class="hero-neon-glow">new</p>
+                  <p class="hero-text">Новейшая<br />аппаратура</p>
                 </div>
               </div>
             </div>
-            <div class="purple-button-container">
-              <Button class="purple-button">Забронировать</Button>
+            <div class="hero-button-container">
+              <Button class="hero-button">Забронировать</Button>
             </div>
           </div>
-          <div class="main-content-section">
-            <img src="img/down.png" class="image-down" alt="стрелка вниз" />
+          <div class="hero-content-section">
+            <img src="img/down.png" class="hero-image" alt="стрелка вниз" />
           </div>
         </div>
       </div>
       </section>
 
     <section class="fun__zone">
-      <div class="ultimate-fun-zone">
-        <h2 class="standout-heading">У нас есть все для классного <br />отдыха с друзьями!</h2>
-        <div class="social-gathering-essentials-container">
-          <div class="vertical-flex-container">
-            <div class="virtual-reality-goggles-container">
-              <ul>
-              <li class="bold-white-text">VR очки</li>
+      <div class="fun-ultimate">
+        <h2 class="fun-heading">У нас есть все для классного <br />отдыха с друзьями!</h2>
+        <ul class="fun-essentials-container">
+          <div class="fun-flex-container">
+            <div class="fun-vr-container">
+              <li class="fun-text">VR очки</li>
             </div>
-            <div class="tabletop-games-section">
-              <li class="bold-white-text">Настольные игры</li>
-            </div>
-          </div>
-          <div class="vertical-flex-container">
-            <div class="audio-system-container">
-              <li class="audio-system-title">Аудио-система 5.1<br />с отличным звуком</li>
-            </div>
-            <div class="movie-services-section">
-              <li class="movie-service-title-style">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</li>
+            <div class="fun-games">
+              <li class="fun-text">Настольные игры</li>
             </div>
           </div>
-          <div class="vertical-flex-container">
-            <div class="karaoke-section">
-              <li class="bold-white-text">Караоке (4 микрофона)</li>
+          <div class="fun-flex-container">
+            <div class="fun-audio-container">
+              <li class="fun-audio-title">Аудио-система 5.1<br />с отличным звуком</li>
             </div>
-            <div class="playstation-container">
-              <li class="bold-white-text">РlаyStаtiоn 5</li>
+            <div class="fun-movie-section">
+              <li class="fun-movie-title">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</li>
+            </div>
+          </div>
+          <div class="fun-flex-container">
+            <div class="fun-karaoke-section">
+              <li class="fun-text">Караоке (4 микрофона)</li>
+            </div>
+            <div class="fun-playstation-container">
+              <li class="fun-text">РlаyStаtiоn 5</li>
             </div>
           </div>
         </div>
@@ -95,7 +97,7 @@
     <div class="ultimate-fun-zone">
       <h2 class="retro-title-style">наши залы</h2>
       <div class="retro-vibes-container">
-        <div class="vertical-flex-container">
+        <div class="fun-flex-container">
           <div class="retro-vibes-container2">
             <div class="retro-vibes-container1">
               <ul>
@@ -304,7 +306,7 @@
       <div class="visitor-feedback-container1">
         <p class="heading-widget">Отзывы посетителей</p>
         <div class="visitor-review-card1">
-          <div class="visitor-review-section visitor-review-card visitor-review-section:first-child">
+          <div class="visitor-review-section">
             <div class="visitor-card-container">
               <img class="profile-image-container" src="img/MAKS.png" alt="мужчина в черном лонгсливе" />
               <p class="visitor-name-widget-style">Макс Самойлов</p>
@@ -357,32 +359,32 @@
 
     <footer class="contacts">
 
-      <section class="contact">
+      <section class="contacts">
 
-        <div class="gradient-background-container">
-          <div class="contact-section1">
-            <div class="contact-section">
-              <p class="header-title-text-style">контакты</p>
-              <div class="contact-section-container">
-                <div class="contact-info-container2">
+        <div class="contacts-background-container">
+          <div class="contacts-section1">
+            <div class="contacts-section">
+              <p class="contacts-title">контакты</p>
+              <div class="contacts-section-container">
+                <div class="contacts-info-container2">
                   <div>
-                    <div class="contact-info-container contact-info-container1 contact-info-container:first-child">
+                    <div class="contacts-info-container ">
                       <div class="svg-container">
                         <img src="img/point.png" alt="место на карте">
                       </div>
-                      <p class="contact-details-text-style">г. Москва<br />ул. Аквамарина, 16</p>
+                      <p class="contacts-text-style">г. Москва<br />ул. Аквамарина, 16</p>
                     </div>
-                    <div class="contact-info-container contact-info-container1">
+                    <div class="contacts-info-container contacts-info-container1">
                       <div class="svg-container">
                         <img src="img/phone.png" alt="телефон">
                       </div>
-                      <p class="contact-details-text-style" style="padding-top: 4px">8 (950) 930 - 28 - 93</p>
+                      <p class="contacts-text-style" style="padding-top: 4px">8 (950) 930 - 28 - 93</p>
                     </div>
-                    <div class="contact-info-container contact-info-container1">
+                    <div class="contacts-info-container contacts-info-container1">
                       <div class="svg-container">
                         <img src="img/envelope.png" alt="письмо">
                       </div>
-                      <a href="mailto:info@vrmotion.com.ua" class="contact-info-display-style">GameOver@gmail.com</a>
+                      <a href="mailto:info@vrmotion.com.ua" class="contacts-display-style">GameOver@gmail.com</a>
                     </div>
                   </div>
                   <div class="vertical-margin-top">

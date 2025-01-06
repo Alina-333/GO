@@ -22,36 +22,37 @@ body {
     text-align: center;
     color: #fff;
 }
-.main-content-container {
+.meniu-content {
   box-sizing: border-box;
   min-width: 1440px;
 }
-.hero-section {
+.menu-section {
   padding-top: 30px;
   padding-bottom: 100px;
 }
-.flex-container-with-gap {
+.menu-container {
     display: flex;
     align-items: center;
-    min-width: 1180px;
+    width: 1180px;
     margin: 0 auto;
-    flex-direction: column
-    justify-content: flex-start;
 }
 .logo-image {
   height: 66px;
+  padding-right: 96px;
 }
-.horizontal-nav-container {
+.menu-nav-container {
   display: flex;
   gap: 40px;
   align-items: center;
   padding-right: 96px;
 }
 .menu-link {
-  font: 400 22px Arial;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 227%;
   text-transform: uppercase;
-}
-.call {
+}  
+.menu__call {
   min-width: 280px;
   height: 55px;
   font: 700 22px Arial;
@@ -62,8 +63,10 @@ body {
   display: inline-flex; 
   align-items: center;
   justify-content: center;
+  background-color: #1C1A1A;
+  color: #fff;
 }
-.game-over-section {
+.hero-section {
   box-sizing: border-box;
   width: 100%;
   align-items: center;
@@ -73,53 +76,53 @@ body {
     flex-direction: column;
     align-items: center
 }
-.super-heading {
+.hero-heading {
   margin: 0;
   font: 900 150px/150px Arial;
   letter-spacing: -15px;
   margin-right: 360px;
 }
-.game-info-section {
+.hero-info {
   display: flex;
   justify-content: center
   width: 100%;
   margin-top: -89px;
 }
-.vertical-centered-container {
+.hero-centered-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.themed-content-container {
+.hero-content-container {
   display: flex;
   flex-direction: column;
   left: 50px;
   margin-bottom: 150px;
 }
-.themed-heading {
+.hero-heading2 {
   font: 400 28px Arial;
 }
-.themed-features-container {
+.hero-features-container {
   display: flex;
   align-self: center;
 }
-.event-info-card {
+.hero-info-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-right: 19px;
 }
-.giant-purple-heading {
+.hero-purple-heading {
   margin: 0;
   font: 900 100px Arial;
   color: #cd06ff;
 }
-.purple-button-container {
+.hero-button-container {
   width: 374px;
   background: #6c0287;
   border-radius: 10px;
 }
-.purple-button {
+.hero-button {
   min-width: 374px;
   height: 80px;
   font: 700 26px Arial;
@@ -130,97 +133,97 @@ body {
   border: none;
   border-radius: 10px;
 }
-.themed-text-block {
+.hero-text {
   margin: 0;
   font: 400 30px Arial;
   text-align: center;
 }
-.equipment-section {
+.hero-equipment {
   padding-top: 35px;
   padding-left: 19px;
 }
-.neon-glow {
+.hero-neon-glow {
   margin: 0;
   font: 900 75px Arial;
   color: #cd06ff;
 }
-.main-content-section {
+.hero-content-section {
   width: 675px;
   height: 762px;
   padding: 575px 544px 90px 34px;
   margin-left: 35px;
   background: url("img/man.png") 50% / cover no-repeat;
 }
-.ultimate-fun-zone {
+.fun-ultimate {
   display: flex;
   flex-direction: column;
   padding-left: 130px;
   padding-right: 130px;
 }
-.standout-heading {
+.fun-heading {
   margin: 0;
   font: 700 40px/50px Arial;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 48px;
 }
-.social-gathering-essentials-container {
+.fun-essentials-container {
   display: flex;
   margin: 0 auto;
   gap: 20px;
-  width: 1440px;
+  width: 1180px;
 }
-.vertical-flex-container {
+.fun-flex-container {
   flex: 1 1 0;
 }
-.virtual-reality-goggles-container {
+.fun-vr-container {
   padding: 166px 31.5px 34px 39px;
   background: url("img/VR.png") 50% / cover no-repeat;
 }
-.bold-white-text {
+.fun-text {
   margin: 0;
   font: 700 20px Arial;
 }
-.tabletop-games-section {
+.fun-games {
   padding: 166px 31.5px 37px 39px;
   margin-top: 40px;
   background: url("img/game.png") 50% / cover no-repeat;
   border: none;
 }
-.audio-system-container {
+.fun-audio-container {
   padding: 166px 31.5px 6px 39px;
   background: url("img/audio.png") 50% / cover no-repeat;
   border: none;
 }
-.audio-system-title {
+.fun-audio-title {
   margin: 0;
   font: 700 20px/28px Arial;
 }
-.movie-services-section {
+.fun-movie-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 166px;
-  padding-bottom: 6px;
+  padding: 166px 31.5px 6px 39px;
   margin-top: 39px;
   background: url("img/netflix.png") 50% / cover no-repeat;
 }
-.movie-service-title-style {
+.movie-title {
   max-width: 302px;
   margin: 0;
   font: 700 20px/28px Arial;
 }
-.karaoke-section {
+.fun-karaoke-section {
   padding: 166px 39px 37px;
   background: url("img/micro.png") 50% / cover no-repeat;
 }
-.playstation-container {
+.fun-playstation-container {
   padding: 166px 31.5px 37px 39px;
   margin-top: 40px;
   background: url("img/sony.png") 50% / cover no-repeat;
 }
 .retro-title-style {
   align-self: center;
+  text-align: center;
   margin: 0;
   font: 700 40px Arial;
   text-transform: uppercase;
@@ -230,7 +233,7 @@ body {
   display: flex;
   margin: 0 auto;
   gap: 20px;
-  width: 1440px;
+  width: 1180px;
 }
 .retro-vibes-container2 {
   background: url("img/RETRO.png") 50% / cover no-repeat;
@@ -517,51 +520,55 @@ section {
         align-items: stretch;
         justify-content: flex-start;
       }
-      .gradient-background-container {
+      .contacts-background-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         min-width: 1440px;
         background: linear-gradient(180deg, rgba(27, 26, 27, 1) 0%, rgba(55, 10, 55, 1) 100%);
       }
-      .contact-section1 {
+      .contacts-section1 {
         min-width: 1182px;
         padding-top: 55px;
       }
-      .contact-section {
+      .contacts-section {
         display: flex;
         flex-direction: column;
       }
-      .header-title-text-style {
+      .contacts-title{
         align-self: center;
         margin: 0;
         font: 700 40px Arial;
         text-transform: uppercase;
         margin-bottom: 57px;
       }
-      .contact-section-container {
+      .contacts-section-container {
         display: flex;
         justify-content: space-between;
         margin-bottom: 156px;
       }
-      .contact-info-container {
+      .contacts-info-container {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 49px;
+        align-items: center;
+        margin-top: 10px;
       }
-      .contact-info-container1 {
+      .contacts-info-container1 {
         align-items: flex-end;
         margin-top: 10px;
       }
-      .contact-info-container:first-child {
+      .contacts-info-container:first-child {
         align-items: center;
         margin-bottom: 49px;
       }
-      .contact-info-display-style {
+      .contacts-display-style {
         margin-left: 27px;
         font: 700 24px Arial;
       }
-      .contact-details-text-style {
+      .contacts-text-style {
         margin: 0;
         margin-left: 27px;
         font: 700 24px Arial;
