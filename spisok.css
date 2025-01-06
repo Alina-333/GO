@@ -32,6 +32,7 @@
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .element .questions__spisok-link:hover {
   background-image: url("./img/plus1.png");
 }
@@ -40,6 +41,8 @@
   background-image: url("./img/close1.png");
 }
 
+=======
+>>>>>>> 08cd108fe23ba6387398343c02e207dd3fde91fb
 .element:nth-child(1n) {
   background-color: #fff;
   color: #1C1A1A;
@@ -72,10 +75,13 @@
   background-image: url("./img/open.svg");
 }
 
+<<<<<<< HEAD
 .element:nth-child(2n) .questions__spisok-link:hover {
   background-image: url("./img/plus2.png");
 }
 
+=======
+>>>>>>> 08cd108fe23ba6387398343c02e207dd3fde91fb
 /* .element:nth-child(2n)::before {
   position: absolute;
   right: 20px;
