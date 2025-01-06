@@ -1,0 +1,78 @@
+.rooms {
+  display: flex;
+  align-items: center;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.zales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+
+  .zales__item {
+    width: 580px;
+    height: 349px;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    transition: transform 200ms linear;
+
+    &:hover{
+      transform: scale(110%);
+    }
+  }
+}
+
+.rest-zone{
+  width: 1180px;
+  margin: 0 auto;  
+}
+
+.rest-zone__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 39px 20px;
+
+  .rest-zone__item{
+    width: 380px;
+    height: 228px;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* background-image: url('./img/VR.png');
+    background-image: url('./img/audio.png');
+    background-image: url('./img/micro.png');
+    background-image: url('./img/game.png');
+    background-image: url('./img/netflix.png');
+    background-image: url('./img/sony.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    transition: transform 200ms linear;
+
+    &:hover{
+      transform: scale(110%);
+    }    
+
+    a{
+      margin-top: 166px;
+      width: 300px;
+      text-align:left ;
+
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
